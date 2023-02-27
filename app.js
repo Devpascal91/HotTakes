@@ -33,7 +33,6 @@ app.use((req, res, next) => {
 app.use('/api/sauces', sauceRoutes);
 app.use('/api/auth', userRoutes);
 app.use("/images", express.static(path.join(__dirname, "/images")));
-// app.use(dotenv);
 app.use(bodyParser.json());
 app.use(helmet());
 app.use(Sauce);
