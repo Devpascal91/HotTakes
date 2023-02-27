@@ -5,7 +5,6 @@ const Sauce = require('./models/Sauce');
 const userRoutes = require('./routes/user')
 const sauceRoutes = require('./routes/sauces');
 const path = require("path");
-// const dotenv = require("dotenv");
 const helmet = require("helmet");
 const images = require("images");
 
